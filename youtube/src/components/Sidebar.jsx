@@ -6,12 +6,12 @@ const Sidebar = () => {
   const mainMenus = [
     { text: "Home", icon: "fas fa-home" },
     { text: "Trending", icon: "fas fa-chart-line" },
-    { text: "Subscriptions", icon: "fas fa-bookmark" },
+    { text: "Subsc", icon: "fas fa-bookmark" },
   ];
   const libraryMenus = [
     { text: "History", icon: "fas fa-history" },
     { text: "Watch later", icon: "fas fa-clock" },
-    { text: "Liked videos", icon: "fas fa-thumbs-up" },
+    { text: "Likedvideos", icon: "fas fa-thumbs-up" },
     { text: "Show more", icon: "fas fa-arrows-alt" },
   ];
 

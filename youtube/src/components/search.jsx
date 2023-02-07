@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 function Home() {
   const [data, setdata] = useState([""]);
-  const [search, setsearch] = useState("");
+//   const [search, setsearch] = useState("");
 
   const GetApi = async () => {
     const Apidata = await axios.get(
@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <>
-      <input
+      {/* <input
         type="text"
         placeholder="Search"
         value={search}
@@ -29,12 +29,12 @@ function Home() {
         {data.map((item) => {
           return (
             <div className="data" key={item.id}> 
-              {/* <p className="snippet"> Snippet- {item.snippet}</p> */}
+              <p className="snippet"> Snippet- {item.snippet}</p>
             </div>
     
           );
         })}
-      </div>
+      </div> */}
     </>
   );
 }

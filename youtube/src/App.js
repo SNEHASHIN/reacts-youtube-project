@@ -3,17 +3,17 @@
  import  Header  from "./components/Header"
  import Sidebar from "./components/Sidebar";
  import React from "react";
-// import Video from "./components/video";
-// import Playlist from "./components/Playlist"
-// import Videos from "./components/videos"
+import Video from "./components/video";
+import Playlist from "./components/Playlist"
+  // import Videos from "./components/videos"
 // import Search from "./components/search"
 function App() {
   return (
     <div className="App">
       <Header /> 
         <Sidebar />
-      {/* <Video /> */}
-      {/* <Playlist /> */}
+      <Video />
+      <Playlist />
       {/* <Videos /> */}
       {/* <Search /> */}
     </div>

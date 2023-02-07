@@ -5,7 +5,7 @@ import React,{useEffect,useState} from 'react';
 const API = "AIzaSyBIbVkfoR0jTOtQVN8PjOgb4UW3oDr12Lg";
 const channelId = "UCmFt1y9cbHx3amPRctMEyvA";
 
-var fetchurl = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${channelId}&part=snippet,id&order=date&maxResults=20`;
+var fetchurl = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${channelId}&part=snippet,id&order=date&maxResults=9`;
 export const Video = () => {
   const[allvideos,setAllvideos] = useState([])
   useEffect(()=>{
